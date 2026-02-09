@@ -6,7 +6,7 @@ import { api } from '../services/api'
 import { useOrderStore } from '../stores/orderStore'
 import { useI18n } from 'vue-i18n'
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
-
+// 커밋을 위한 임의 주석 작성
 const { t, locale } = useI18n()
 
 const router = useRouter()
